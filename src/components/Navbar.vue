@@ -17,19 +17,24 @@
         <ul class="nav navbar-nav ml-auto" id="menu-v8">
           <li class="nav-item" role="presentation">
             <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A CON RUTA NOMBRADA -->
-            <a href="/">portada</a>
+            <router-link to="/">portada</router-link>
+            
           </li>
           <li class="nav-item" role="presentation">
             <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A CON RUTA NOMBRADA -->
-            <a href="/sobremi">sobre mí</a>
+            
+            <router-link to="/sobremi">sobre mí</router-link>
+            
           </li>
           <li class="nav-item" role="presentation">
             <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A CON RUTA ESTÁTICA -->
-            <a href="/">contacto</a>
+            
+            <router-link to="/contacto">contacto</router-link>
           </li>
           <li class="nav-item" role="presentation">
             <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A RUTA ESTÁTICA -->
-            <a href="/post/1">último post</a>
+            
+            <router-link to="/post/1">último post</router-link>
           </li>
         </ul>
       </div>
