@@ -1,14 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import Inicio from '../views/Inicio.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: "/",
-    redirect: "/"
-  }
+    path: '/',
+    redirect: '/inicio'
+  },
+  { path: '/inicio', component: Inicio }
 ]
 
 const router = new VueRouter({

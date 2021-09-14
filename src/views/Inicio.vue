@@ -1,10 +1,11 @@
 <template>
   <div>
-    <h1>Aqui deberia ir el footer</h1>
+    <h1>Esta es la vista de Inicio</h1>
   </div>
 </template>
+
 <script>
 export default {
-  name: 'Footer'
+  name: 'Inicio'
 }
 </script>
